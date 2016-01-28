@@ -14,7 +14,7 @@ newSchema.methods.vote = function() {
 
 newSchema.methods.addComment = function(comment) {
 	this.comments.push(comment);
-	return this.comments;
+	return comment;
 }
 
 var New = mongoose.model('New', newSchema);

@@ -46,13 +46,13 @@ module.exports = function(app) {
 					res.send('The comment you want to add is empty');
 					return;
 				}
-				var comments = specificNew.addComment(req.body);
+				var comment = specificNew.addComment(req.body);
 				specificNew.save(function(err) {
 					if (err) {
 						res.send(err);
 						return;
 					}
-					res.json("" + comments);
+					res.json(comment);
 				});
 			});
 		})

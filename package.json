@@ -18,6 +18,7 @@
   "homepage": "https://github.com/Jimlnth/FullStackNews-BE#readme",
   "dependencies": {
     "body-parser": "^1.14.2",
+    "cors": "^2.7.1",
     "express": "^4.13.3",
     "mongoose": "^4.3.6"
   }
