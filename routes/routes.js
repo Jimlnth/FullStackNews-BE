@@ -63,7 +63,7 @@ module.exports = function(app) {
 					res.send(err);
 					return;
 				}
-				res.json("" + newNew);
+				res.json(newNew);
 			});
 		});
 }
